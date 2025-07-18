@@ -1,20 +1,32 @@
 # Avatar CDN Repository
 
-This repository contains avatar images for use via CDN delivery. You can use the images in the `cartoon-avatars/` and `uifaces-avatars/` folders directly in your projects.
+This repository provides a collection of avatar images that you can use directly in your projects via CDN delivery. Images are organized into folders for easy access.
 
-## Usage
+## How to Access Avatars via CDN
 
-After pushing to GitHub, you can use a CDN like jsDelivr or GitHub Pages to serve these images. Example (using jsDelivr):
+All images are accessible through jsDelivr CDN. Use the following URL structure:
 
 ```
-https://cdn.jsdelivr.net/gh/<your-username>/<repo-name>@main/cartoon-avatars/1.jpg
+https://cdn.jsdelivr.net/gh/Gaurav-r-a-j/cdn/<avatar-folder>/<image-name>.jpg
 ```
 
-Replace `<your-username>` and `<repo-name>` with your GitHub username and repository name.
+**Examples:**
+
+- Cartoon avatar:  
+  `https://cdn.jsdelivr.net/gh/Gaurav-r-a-j/cdn/cartoon-avatars/1.jpg`
+- Human avatar:  
+  `https://cdn.jsdelivr.net/gh/Gaurav-r-a-j/cdn/human-avatars/3.jpg`
+
+**URL Structure:**
+- `cdn` — The repository root
+- `<avatar-folder>` — Either `cartoon-avatars` or `human-avatars`
+- `<image-name>.jpg` — The image file name (e.g., `3.jpg`)
+
+You can browse the folders in this repository to find the image numbers you want to use.
 
 ## Folders
 - `cartoon-avatars/` — Cartoon style avatars
-- `uifaces-avatars/` — UI faces avatars
+- `human-avatars/` — Human faces avatars
 
 ## Excluded Files
 - Python scripts and local environment files are excluded from the repo.
